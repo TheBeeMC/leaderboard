@@ -13,12 +13,12 @@ description = 'sniper.py, coded by unpredictable'
  
 @bot.event
 async def on_message(message):
-    if message.content.startswith('+listlead'):
-            embed = discord.Embed(title="What is your highest score?", description="Posted on Sunday, October 21, 2018", colour=0x1a94f0)
-            embed.add_field(name="First Place with 500 Points: Commit", value="2nd Place with 374 Points: PCGame & 3rd Place with 106 Points: Paradise", inline=True)
-            embed.set_author(name="Current Leaderboard Status", icon_url="")
-            embed.set_footer(text="Official Leaderboard Status")
-            await bot.send_message(message.channel, "https://i.gifer.com/JG3c.gif")
+    if message.content.startswith('?leade24rboard):
+            embed = discord.Embed(title="TOP 4 PLAYERS", description="#1      Flam      500", colour=0x1a94f0)
+            embed.add_field(name="#2      DrHat      259", value="#3      Paradise      106", inline=True)
+            embed.set_author(name="     Leaderboard", icon_url="")
+            embed.set_footer(text="/home/leaderboard")
+            await bot.send_message(message.channel, "https://gyazo.com/27ae4b91b635a4569a32d922f5322865")
             await bot.send_message(message.channel, embed=embed)
 
          

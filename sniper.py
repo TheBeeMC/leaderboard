@@ -13,7 +13,7 @@ description = 'sniper.py, coded by unpredictable'
  
 @bot.event
 async def on_message(message):
-    if message.content.startswith('?leade24rboard):
+    if message.content.startswith('?leade24rboard'):
             embed = discord.Embed(title="TOP 4 PLAYERS", description="#1      Flam      500", colour=0x1a94f0)
             embed.add_field(name="#2      DrHat      259", value="#3      Paradise      106", inline=True)
             embed.set_author(name="     Leaderboard", icon_url="")
